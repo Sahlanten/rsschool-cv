@@ -1,2 +1,1 @@
-# rsschool-cv
-My first CV
+https://github.com/Sahlanten/rsschool-cv.git
