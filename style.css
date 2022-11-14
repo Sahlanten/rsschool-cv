@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.glova{
+    background-color: gray;
+    width: 70%;
+    height: 200px;
+    display: inline-flex;
+    border-radius: 40px;
+    box-shadow: 4px 10px 30px black;
+}
