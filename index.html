@@ -6,6 +6,89 @@
     <title>Document</title>
 </head>
 <body>
-    
-</body>
+
+    <header>
+      <h1>Kyrylo Kipcharskyi</h1>
+      <h3>FrontEnd Developer</h3>
+    </header>
+  
+    <section>
+      <p>+48510099983</p>
+      <p>kkipcharsky@gmail.com</p>
+      <p>Poland, Poznan</p>
+    </section>
+  
+    <section>
+      <h4>Less words, more action, more tasks, more code!</h4>
+      <p>
+        Experience in logistics taught me to do high-quality tasks and clearly answer questions from management,
+        which in turn did not deprive me of humor and an original approach to the projects being carried out.
+      </p>
+    </section>
+  
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML/CSS</li>
+        <li>React.js</li>
+        <li>Vite/Webpack/Gulp</li>
+        <li>Git/GitHub</li>
+        <li>npm/Yarn</li>
+        <li>Sass/Less</li>
+        <li>BEM/SMACSS/OOCSS</li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Work Experience</h2>
+      <ol>
+        <li><a href="https://www.pyszne.pl/">Pyszne.pl</a> (courier) - 2018-2019</li>
+        <li><a href="https://www.pyszne.pl/">Pyszne.pl</a> (hub-coordinator) - 2019-2020</li>
+        <li><a href="https://www.uber.com/pl/pl/">Uber</a> (fleet-coordinator) - 2020-2022</li>
+        <li><a href="https://www.girteka.eu/">Girteca Logistics</a> (fleet-dispatcher) - 2022 - present</li>
+      </ol>
+    </section>
+  
+    <section>
+      <h2>Study Experience</h2>
+      <ol>
+        <li>Netology Front End developer (2022-07-12 - present)</li>
+        <li>RSSchool 2022q4 (2022-09-04 - 2023-03-25) 6 months</li>
+        <li>RSSchool 2023q4 (2023-11-05 - present)</li>
+      </ol>
+    </section>
+  
+    <section>
+      <h2>Code Example</h2>
+      <pre>
+        <code>
+          const ButtonDarkMode = () => {
+            const [darkMode, setDarkMode] = useLocalStorage("darkMode", "light");
+            const buttonRef = useRef(null);
+            useEffect(() => {
+              if (darkMode === "dark") {
+                document.body.classList.add("dark");
+                buttonRef.current.classList.add("dark-mode-btn--active");
+              } else {
+                document.body.classList.remove("dark");
+                buttonRef.current.classList.remove("dark-mode-btn--active");
+              }
+            }, [darkMode]);
+          }
+        </code>
+      </pre>
+    </section>
+  
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English: B2</li>
+        <li>Polish: C1</li>
+        <li>Ukrainian: Native Speaker</li>
+        <li>Russian: Native Speaker</li>
+      </ul>
+    </section>
+  
+  </body>
 </html>

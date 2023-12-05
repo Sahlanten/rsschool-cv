@@ -1,1 +1,1 @@
-https://Sahlanten.github.io/rsschool-cv/cv
+https://Sahlanten.github.io/rsschool-cv/
